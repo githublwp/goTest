@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba316e6-19af-458d-bfa0-f2572f945bdf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/Docker核心原理.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/githublwp/helloworld.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/gopl.io/ch2/echo4.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/gopl.io/ch2/ftoc.go" afterDir="false" />
@@ -73,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/src/gopl.io/ch2/echo4.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#14#50#0" expanded="true" />
               </folding>
@@ -598,7 +601,7 @@
     <entry file="file://$PROJECT_DIR$/src/gopl.io/ch2/echo4.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#14#50#0" expanded="true" />
           </folding>
