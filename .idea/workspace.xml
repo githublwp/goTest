@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba316e6-19af-458d-bfa0-f2572f945bdf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/Docker核心原理.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/githublwp/helloworld.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gopl.io/ch2/echo4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gopl.io/ch2/ftoc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/wayne/http/helloWorld.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/wayne/packages.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/goTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/go/go.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org/wayne/packages.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gopl.io/ch2/echo4.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gopl.io/ch2/echo4.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gopl.io/ch2/ftoc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gopl.io/ch2/ftoc.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,14 +64,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="echo4.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="echo4.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gopl.io/ch2/echo4.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#14#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="361">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="go.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/go/go.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -106,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/org/wayne/http/helloWorld.go" />
         <option value="$PROJECT_DIR$/src/gopl.io/ch2/ftoc.go" />
         <option value="$PROJECT_DIR$/src/gopl.io/ch2/echo4.go" />
+        <option value="$PROJECT_DIR$/doc/go/go.md" />
       </list>
     </option>
   </component>
@@ -139,6 +147,17 @@
             <path>
               <item name="goTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goTest" type="b2602c69:ProjectViewProjectNode" />
@@ -202,6 +221,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
@@ -279,7 +299,7 @@
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.128125" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
@@ -311,6 +331,82 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/org/wayne/http/helloWorld.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gopl.io/ch2/ftoc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40793">
+          <caret line="2147" column="38" selection-start-line="2147" selection-start-column="23" selection-end-line="2147" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gopl.io/ch2/echo4.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wayne/packages.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/githublwp/helloworld.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wayne/http/helloWorld.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gopl.io/ch2/ftoc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40793">
+          <caret line="2147" column="38" selection-start-line="2147" selection-start-column="23" selection-end-line="2147" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gopl.io/ch2/echo4.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/wayne/packages.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1843">
@@ -353,9 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#14#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -401,9 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#14#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -449,9 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#14#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,11 +687,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gopl.io/ch2/echo4.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#14#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/go/go.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
