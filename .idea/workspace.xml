@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ba316e6-19af-458d-bfa0-f2572f945bdf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/go/go.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/go/go.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,8 +86,8 @@
         <entry file="file://$PROJECT_DIR$/doc/go/go.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="152">
-                <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <first_editor relative-caret-position="190">
+                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -306,12 +304,12 @@
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13489583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13489583" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.63489586" side_tool="true" visible="true" weight="0.13289963" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.73333335" side_tool="true" visible="true" weight="0.30669144" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.36510417" visible="true" weight="0.13289963" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.26666668" visible="true" weight="0.30669144" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2732342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
@@ -768,8 +766,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <first_editor relative-caret-position="190">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
         </state>
