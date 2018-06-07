@@ -1,4 +1,6 @@
-package main
+
+package tempconv
+
 
 import (
 	"flag"
