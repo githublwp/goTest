@@ -1,7 +1,8 @@
-package tempconv
+package main
 
 import "fmt"
 
+//类型
 type Celsius float64 // 摄氏温度
 type Fahrenheit float64 // 华氏温度
 const (
